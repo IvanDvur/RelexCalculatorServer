@@ -23,6 +23,7 @@ dependencies {
 	implementation("com.ezylang:EvalEx:3.0.5")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	annotationProcessor("org.projectlombok:lombok")
 }
 
 tasks.withType<Test> {
