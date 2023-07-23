@@ -22,7 +22,7 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
           context: .
-          image: ivandvurechenskiy/user-service
+          image: ivandvurechenskiy/calculator-server
           tags: latest
           registry: docker.io
           dockerfile: ./Dockerfile
