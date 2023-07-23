@@ -1,4 +1,4 @@
-package com.relex.CalculatorServer;
+package com.relex;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

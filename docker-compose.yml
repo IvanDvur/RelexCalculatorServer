@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+
+  calculator-server:
+    restart: on-failure
+    container_name: data-service
+    image: ivandvurechenskiy/calculator-server
+    ports:
+      - "8081:8081"
+
+  calculator-client:
+    container_name: calculator-client
+    image: ivandvurechenskiy/calculator-client
+    ports:
+      - "8080:80"
+
+
+
