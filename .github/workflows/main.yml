@@ -18,7 +18,7 @@ jobs:
           distribution: 'adopt'
       - name: Generate module jars
         run: gradle build --exclude-task test
-      - name: Build & Push Docker user-service
+      - name: Build & Push Docker calculator-server
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
           context: .
