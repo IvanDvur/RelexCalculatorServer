@@ -4,7 +4,7 @@ services:
 
   calculator-server:
     restart: on-failure
-    container_name: data-service
+    container_name: calculator-server
     image: ivandvurechenskiy/calculator-server
     ports:
       - "8081:8081"
